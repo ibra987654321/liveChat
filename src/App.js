@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import CustomizedList from './components/CustomizedList'
+import LLongPooling from "./components/lLongPooling";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LLongPooling></LLongPooling>
     </div>
   );
 }
