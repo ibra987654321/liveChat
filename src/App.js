@@ -1,5 +1,4 @@
 import './App.css';
-import CustomizedList from './components/CustomizedList'
 import LLongPooling from "./components/lLongPooling";
 
 function App() {
