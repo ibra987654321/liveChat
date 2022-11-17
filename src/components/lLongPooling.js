@@ -1,8 +1,8 @@
 // material-ui
-import {TextField, Box, Typography, Button, CssBaseline} from '@mui/material';
+import { Button, CssBaseline} from '@mui/material';
 
 // project imports
-import {useEffect, useRef, useState} from 'react';
+import { useRef, useState} from 'react';
 import Login from './login'
 
 // ==============================|| SAMPLE PAGE ||============================== //
@@ -86,7 +86,7 @@ const SamplePage = () => {
                                     src="https://rvs-chat-app-css-illustration.netlify.app/images/avatar.jpg" alt=""/></div>
                                 <div className="prof-det">
                                     <div className="prof-name">{username}</div>
-                                    <div className="prof-status">Онлайн </div>
+                                    <div className="prof-status">Онлайн</div>
                                 </div>
                             </div>
                             <div className="mobile-top-right"></div>
